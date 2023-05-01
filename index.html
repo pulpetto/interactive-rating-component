@@ -10,11 +10,38 @@
             href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap"
             rel="stylesheet"
         />
+        <link rel="shortcut icon" href="#" type="image/x-icon" />
         <link rel="stylesheet" href="/styles.css" />
         <title>Rating component</title>
     </head>
     <body>
-        <h1>rc</h1>
+        <main>
+            <section class="rating">
+                <div class="rating__heading">How did we do?</div>
+                <div class="rating__desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Earum impedit error quibusdam modi veniam eos porro ducimus
+                    ea quod, sequi laboriosam, temporibus labore illo aspernatur
+                    nesciunt? Commodi provident iste ducimus.
+                </div>
+                <ul class="rating__list">
+                    <button class="rating__list--btn">1</button>
+                    <button class="rating__list--btn">2</button>
+                    <button class="rating__list--btn">3</button>
+                    <button class="rating__list--btn">4</button>
+                    <button class="rating__list--btn">5</button>
+                </ul>
+            </section>
+
+            <section class="after">
+                <div class="after__thx">
+                    You selected <span class="after__thx--score"></span> out of
+                    5!
+                </div>
+                <div class="after__heading"></div>
+                <div class="after__desc"></div>
+            </section>
+        </main>
         <script src="/app.js"></script>
     </body>
 </html>
