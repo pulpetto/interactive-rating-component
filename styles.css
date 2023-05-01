@@ -45,11 +45,38 @@ main {
 }
 
 .rating__list--btn {
+    transition: all 0.3s;
     width: 3rem;
     height: 3rem;
     background-color: rgb(255, 255, 255);
     border: none;
     border-radius: 50%;
+}
+
+.rating__list--btn:hover,
+.rating__submit:hover {
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+.rating__list--btn:focus,
+.rating__submit:focus {
+    background-color: rgb(48, 59, 180);
+}
+
+.rating__list--btn:active,
+.rating__submit:active {
+    background-color: rgb(0, 255, 26);
+}
+
+.rating__submit {
+    transition: all 0.3s;
+    margin-top: 4rem;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    width: 60%;
+    height: 3rem;
 }
 
 .after {
