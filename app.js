@@ -14,6 +14,8 @@ options.forEach((option) =>
 );
 
 submit.addEventListener("click", function () {
+    if (scoreVal === 0) return alert("pls select from 1-5");
+
     part1.style.display = "none";
     part2.style.display = "block";
 
